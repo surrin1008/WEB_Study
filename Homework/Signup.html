@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>회원가입</title>
+    <link rel="stylesheet" href="Signup.css">
+</head>
+<body>
+    <div class="BackGround">
+            <div class="MainInfo">
+                <h1 class="Header">
+                    회원 가입을 위해
+                    <br> 
+                    정보를 입력해주세요
+                </h1>
+                <!-- input tag focus 시 outline 제거 및 밑줄 색상 변경 -->
+                <div>
+                    <div class="UserInfoBox">
+                        <label>*이메일</label>
+                        <input type="text">
+                    </div>
+                    <div class="UserInfoBox">
+                        <label>*이름</label>
+                        <input type="text">
+                    </div>
+                    <div class="UserInfoBox">
+                        <label>*비밀번호</label>
+                        <input type="password">
+                    </div>
+                    <div class="UserInfoBox">
+                        <label>*비밀번호 확인</label>
+                        <input type="password">
+                    </div>
+                </div>
+                <!-- align 해보슈 label이랑 input (align-items center) -->
+                <div class="RadioBtn">
+                    <div class="radioItem"> 
+                        <input type="radio" name="gender">
+                        <label for="">여성</label>
+                    </div>
+                    <!-- &nbsp;&nbsp; -->
+                    <div class="radioItem"> 
+
+                    <input type="radio" name="gender">남성
+                    </div>
+                </div>
+                <div class="UseAgreeText">
+                    <input class="UseText" type="checkbox">
+                    이용약관 개인정보 수집 및 이용, 마케팅 활용 선택에 모두 동의합니다.
+                </div>
+                <hr style="border: 1px solid #E5E5E5;">
+                <!-- 버튼 위에 마우스 올리면(hover) 커서 변경 -->
+                 <!-- 눌렀을 때 딸깍 하는거 해보슈(active) -->
+                <button class="SubmitBtn">
+                    가입하기
+                </button>
+            </div>
+    </div>
+</body>
+</html>
