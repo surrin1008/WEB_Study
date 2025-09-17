@@ -96,6 +96,10 @@
     display: flex;
     flex-direction: column;
     font-size: 11px;
+
+    select{
+        margin: 5px 0px;
+    }
 }
 
 .wrapper__right{
