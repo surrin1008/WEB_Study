@@ -1,3 +1,4 @@
 function greeting() {
-    document.getElementById("input").value = "World"
+    let word = document.getElementById("input").value
+    document.getElementById("target").innerText = word
 }
