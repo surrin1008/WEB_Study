@@ -69,6 +69,16 @@ html, body{
     img{
         width: 40px;
     }
+
+    button{
+        font: 11px;
+        font-weight: 700;
+        border: 1px solid black;
+        border-radius: 5px;
+        background-color: white;
+        text-wrap: nowrap;
+        padding: 4px 8px;
+    }
 }
 
 .contents__body__top__title{
@@ -96,14 +106,7 @@ html, body{
         
     }
 
-    button{
-        font: 11px;
-        font-weight: 700;
-        border: 1px solid black;
-        border-radius: 5px;
-        background-color: white;
-        text-wrap: nowrap;
-    }
+    
 }
 
 .result{
