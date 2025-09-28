@@ -34,7 +34,7 @@ setInterval(function(){
 // VM392:3 1
 // VM392:3 0
 
-let time = 180
+// let time = 180
 
 undefined
 setInterval(function(){
