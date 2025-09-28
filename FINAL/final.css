@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.background{
+    width: 540px;
+    height: 960px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #AACDFF;
+    border-radius: 20px;
+    box-shadow: 0 0 7px 7px rgba(0, 104, 255, 0.25);
+    margin: auto;
+    gap: 60px;
+    padding: 40px 0px;
+}
+
+.title{
+    width: 70%;
+    color: #0068FF;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.main_info{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input_style{
+    height: 60px;
+    border: 1px solid #D2D2D2;
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 12px;
+}
+
+.phone_box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 28px;
+
+    input{
+        width: 26%;
+        height: 40px;
+    }
+}
+
+.token_field{
+    color: #0068FF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    font-size: 18px;
+    gap: 20px;
+}
+
+.token_send_btn{
+    width: 120px;
+    height: 40px;
+    color: #0068FF;
+    font-size: 16px;
+    background-color: white;
+    border: 1px solid #D2D2D2;
+    border-radius: 7px;
+}
+
+.token_submit_btn{
+    width: 120px;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    background-color: #0068FF;
+    border: 1px solid #D2D2D2;
+    border-radius: 7px;
+}
+
+.select_field{
+    height: 60px;
+    color: #797979;
+    border: 1px solid #D2D2D2;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+.radio_field{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+    padding: 8px;
+
+
+    div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 4px;
+    }
+}
+
+.divideLine{
+    width: 100%;
+    border-top: 1px solid #E5E5E5;
+}
+
+.submit_btn{
+    height: 75px;
+    color: #0068FF;
+    font-size: 18px;
+    border: 1px solid #0068FF;
+    border-radius: 10px;
+    background-color: white;
+}
+
+[type="radio"] {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #D2D2D2;
+    border-radius: 50%;
+    background-color: #EBEBEB;
+    
+}
+
+[type="radio"]:checked {
+    box-shadow: 0 0 0 1px #D2D2D2;
+    border: 2px solid #EBEBEB;
+    background-color: gray;
+}
+
+input{
+    outline-color: #0068FF;
+}
